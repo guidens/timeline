@@ -6,7 +6,7 @@ d3.json('data/data.json').then(function(data) {
   const filteredData = data.filter(function(d) {
   const date = new Date(d.date);
   return date.getHours() === 19 && date.getMinutes() >= 30 ||
-  date.getHours() === 20 && date.getMinutes() <= 30;
+  date.getHours() === 20 && date.getMinutes() <= 00;
   });
   console.log("Filtered data:", filteredData);
   
@@ -26,7 +26,7 @@ d3.json('data/data.json').then(function(data) {
   
   // Create a D3 scale for mapping time to horizontal position
   const xScale = d3.scaleTime()
-  .domain([new Date('2023-04-17T19:30:00Z'), new Date('2023-04-17T20:30:00Z')])
+  .domain([new Date('2023-04-17T19:30:00Z'), new Date('2023-04-17T20:00:00Z')])
   .range([0, 800]);
   console.log("X scale created:", xScale);
   
