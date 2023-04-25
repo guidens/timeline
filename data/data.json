@@ -1,39 +1,42 @@
+[
 {
-    "date" : ISODate("2023-04-17T19:44:54.952Z"),
+    "date" : "2023-04-17T19:44:54.952Z",
     "data" : {
         "type" : "BUYER_ARRIVED"
     }
 },
 
 {
-    "date" : ISODate("2023-04-17T19:44:59.952Z"),
+    "date" : "2023-04-17T19:44:59.952Z",
     "data" : {
         "type" : "ENTERED_STORE"
     }
 },
+
 {
-    "date" : ISODate("2023-04-17T19:45:54.952Z"),
+    "date" : "2023-04-17T19:45:54.952Z",
     "data" : {
         "type" : "CART_INITIALIZED"
     }
 },
 
 {
-    "date" : ISODate("2023-04-17T19:45:59.952Z"),
+    "date" : "2023-04-17T19:45:59.952Z",
     "data" : {
         "type" : "PRODUCT_ADDED_TO_CART"
     }
 },
 {
-    "date" : ISODate("2023-04-17T19:43:54.952Z"),
+    "date" : "2023-04-17T19:43:54.952Z",
     "data" : {
         "type" : "CLICK_FEATURED"
     }
 },
 
 {
-    "date" : ISODate("2023-04-17T19:48:59.952Z"),
+    "date" : "2023-04-17T19:48:59.952Z",
     "data" : {
         "type" : "CHECKOUT_STARTED"
     }
 }
+]

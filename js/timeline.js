@@ -1,5 +1,5 @@
 // Load the data from a JSON file or API endpoint
-d3.json('data.json').then(function(data) {
+d3.json('data/data.json').then(function(data) {
 
   // Filter the data to keep only events within the time range
   const filteredData = data.filter(function(d) {
